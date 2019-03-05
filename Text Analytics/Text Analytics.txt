@@ -1,0 +1,17 @@
+Text Analytics
+
+Purpose: To implement analytics on textual dataset and obtain key insights. 
+
+Instructions 
+
+1. We will download several documents from WikiLit: A literature review of scholarly research on Wikipedia. 
+
+2. Define the following url string: 
+url = "http://wikilit.referata.com/" + \"wiki/Special:Ask/" + \"-5B-5BCategory:Publications-5D-5D/" + \"-3FHas-20author%3DAuthor(s)/-3FYear/" + \"-3FPublished-20in/-3FAbstract/-3FHas-20topic%3DTopic(s)/" + \"-3FHas-20domain%3DDomain(s)/" + \"format%3D-20csv/limit%3D-20100/offset%3D0"
+3. Get and read this web page, and show the first 2000 characters to make sure everything is working correctly. 
+
+4. Count the occurrences of all words in the documents. 
+
+5. Filter out common words. 
+
+6. Construct a bag-of-words matrix. 
