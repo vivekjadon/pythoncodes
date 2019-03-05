@@ -1,0 +1,14 @@
+
+Support Vector Machine
+
+1. For this assignment, we will once again return to the famous Iris dataset. 
+
+2. Divide the Iris dataset into two parts: one will contain all of the features (Sepal.Length, Sepal.Width, Petal.Length, Petal.Width), and the other will contain just the Species. 
+
+3. Create an SVM model, which takes as the output variable the species, and input, all of the features. 
+
+4. How many support vectors did you obtain? What was the SVM kernel that was used? 
+
+5. Create a confusion matrix that measures the accuracy of the SVM predictions versus the actual data. How accurate were your results? 
+
+6. Now “tune” the SVM model by changing the cost and gamma parameters. How do changing the values affect the accuracy as reported by the confusion matrix. 
