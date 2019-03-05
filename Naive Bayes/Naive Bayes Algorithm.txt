@@ -1,0 +1,7 @@
+Naive Bayes Algorithm
+
+Using the Tennis Data sets
+
+1- Provide a model based on Gaussian Naive bayes and calculate the accuracy.
+
+2- What is the prediction for the following cases?
