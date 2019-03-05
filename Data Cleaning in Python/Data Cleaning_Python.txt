@@ -1,0 +1,34 @@
+Data cleaning, preparation and transformation on Titanic dataset
+
+1.	Download Titanic dataset 
+
+2.	Manually delete values from several cells, save file locally and explore in Python 
+
+3.	Apply following data preparation rules, note that additional documentation on Python is available at https://docs.python.org, https://matplotlib.org/ ,https://pandas.pydata.org/pandas-docs/stable/
+# Drop the columns where all elements are missing values:
+df.dropna(how='all’)
+
+# Drop the columns where any of the elements are missing values
+ df.dropna(how='any')
+
+# Keep only the rows which contain 2 missing values maximum
+df.dropna(thresh=2)
+
+# Fill all missing values with the mean of the particular column
+df.fillna(df.mean())
+
+# Fill any missing value in column 'A' with the column median
+df['A'].fillna(df['A'].median())
+
+4.	Look at the statistical summary of the prepared dataset: 
+Use: print( df.describe() )
+
+5.	Look at the statistical summary for categorical variables: 
+Use: categorical = df.dtypes[df.dtypes == "object"].index 
+print(categorical)  
+df[categorical].describe()
+
+6.	Identify categorical variables and explain why they cant be used in the raw form in the analysis
+
+7.	Transform one of the categorical variables into numerical using label encoder method 
+Transform gender into numerical variable using dummy coding
