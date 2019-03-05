@@ -1,0 +1,17 @@
+Ensemble Algorithms 
+
+Purpose: This assignment will be a continuation of the Course 3 that covers basics of machine learning and Lessons 3 and 7 of this course that covers Naïve Bayes classification algorithm and SVM classification/regression algorithm. Students would learn how ensemble methods are used in machine learning to improve accuracy of algorithms. In particular, we will cover Gradient Boosted Trees. 
+
+1. LendingClub is a US peer-to-peer lending company that enables borrowers to obtain a loan, and investors to purchase notes backed by payments made on loans. Since their data is publically available for download, we will use Gradient Boosting to analyze this data to see what we can learn from it. 
+
+2. Download the operational statistics data by clicking here. 
+
+3. Confirm that you have the correct dataset, as some of the features should include: Amount Requested, Interest rate, Purpose of Loan, State, etc… 
+
+4. You will have to clean the data before it is ready to be used for analysis. One suggestion is to replace the NA entries with averages of that column, and convert the interest rate to a numeric column. 
+
+5. Given the dataset, create an additional feature by dividing the annual income by 12 and dividing this result by the revolving balance. Call this feature debt-to-income ratio. 
+
+6. Now, use gradient boosting to express the importance of each variable in determining a loan’s interest rate. Initially fit your GBM model on a training set with using 1000 trees, 0.01 as your shrinkage parameter. Use cross-validation to optimize these parameters to see which gives you the lowest test error rate. 
+
+7. Create a summary chart that shows you the variable importance of each feature. What is the most important variable in determining a loan’s interest rate. Which is the least important variable based on what you found? 
